@@ -40,8 +40,7 @@ Declare
     '**TEF RC flat rate',
     '**TEF RC flat rate for IPTV',
     '**TEF RC flat rate for OTT',
-    '**TEF RC flat rate for multiple components'
-    )
+    '**TEF RC flat rate for multiple components')
     group by a.ID, a.PACKAGE_ID) ;
 
     DYNAMIC_DATA_XML blob;
